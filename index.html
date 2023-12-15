@@ -1,0 +1,34 @@
+<!-- <!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Camera Kit Web App</title>
+  </head>
+  <body>
+    <canvas id="canvas"></canvas>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html> -->
+
+<html>
+  <head>
+    <title>Recording Video</title>
+  </head>
+  <body>
+    <section>
+      <canvas id="canvas"></canvas>
+    </section>
+    <section>
+      <button id="start">Start Recording</button>
+      <button id="stop" disabled>Stop Recording</button>
+    </section>
+    <section id="video-container" style="display: none">
+      <video loop controls autoplay id="video"></video>
+      <div>
+        <button id="download">Download Video</button>
+      </div>
+    </section>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
